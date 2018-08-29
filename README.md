@@ -14,4 +14,5 @@ An Android Baking App that will allow Udacity’s resident baker-in-chief, Miria
 
 * Using Fragments to create a responsive design that works on phones and tablets.
 
-
+## Reference
+Got help from https://github.com/nikosvaggalis/Udacity-Advanced-Developer-Nanodegree-Baking-App-2017
