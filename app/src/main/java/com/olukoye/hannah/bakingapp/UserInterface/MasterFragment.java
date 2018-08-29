@@ -44,7 +44,7 @@ public class MasterFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.recipe_fragment_body_part, container, false);
 
-        recyclerView=(RecyclerView)  rootView.findViewById(R.id.recipe_recycler);
+        recyclerView = rootView.findViewById(R.id.recipe_recycler);
         final RecipeAdapter recipesAdapter =new RecipeAdapter((BakingAppActivity)getActivity());
         recyclerView.setAdapter(recipesAdapter);
 

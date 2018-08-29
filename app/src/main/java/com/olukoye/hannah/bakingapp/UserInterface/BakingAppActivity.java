@@ -11,19 +11,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.olukoye.hannah.bakingapp.Adapters.RecipeAdapter;
 import com.olukoye.hannah.bakingapp.Pojos.RecipeObjects;
 import com.olukoye.hannah.bakingapp.R;
-import com.olukoye.hannah.bakingapp.RecipesInterfaceApi;
 import com.olukoye.hannah.bakingapp.SimpleIdlingResource;
 
 import java.util.ArrayList;
-
-import okhttp3.OkHttpClient;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class BakingAppActivity extends AppCompatActivity implements RecipeAdapter.ListItemClickListener{
@@ -59,7 +52,7 @@ public class BakingAppActivity extends AppCompatActivity implements RecipeAdapte
        setSupportActionBar(myToolbar);
        getSupportActionBar().setHomeButtonEnabled(false);
        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
-       getSupportActionBar().setTitle("Baking Time");
+       getSupportActionBar().setTitle("Baking App");
 
 
 // Get the IdlingResource instance
