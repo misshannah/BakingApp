@@ -42,9 +42,9 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.olukoye.hannah.bakingapp.UserInterface.RecipeDetailActivity.SELECTED_INDEX;
-import static com.olukoye.hannah.bakingapp.UserInterface.RecipeDetailActivity.SELECTED_RECIPES;
-import static com.olukoye.hannah.bakingapp.UserInterface.RecipeDetailActivity.SELECTED_STEPS;
+import static com.olukoye.hannah.bakingapp.UserInterface.BakingAppActivity.SELECTED_INDEX;
+import static com.olukoye.hannah.bakingapp.UserInterface.BakingAppActivity.SELECTED_RECIPES;
+import static com.olukoye.hannah.bakingapp.UserInterface.BakingAppActivity.SELECTED_STEPS;
 
 
 public class RecipeStepDetailFragment extends Fragment {
@@ -205,6 +205,7 @@ public class RecipeStepDetailFragment extends Fragment {
         currentState.putParcelableArrayList(SELECTED_STEPS,steps);
         currentState.putInt(SELECTED_INDEX,selectedIndex);
         currentState.putString("Title",recipeName);
+
     }
 
     public boolean isInLandscapeMode( Context context ) {
